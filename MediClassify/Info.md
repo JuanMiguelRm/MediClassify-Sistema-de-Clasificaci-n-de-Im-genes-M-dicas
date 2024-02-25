@@ -1,3 +1,5 @@
+                                Info Niveles
+                                
     Nivel 1. 
 Prototipo con una interfaz gráfica funcional, que permite ver la implementación de los casos de
 uso a nivel de interacción con el usuario. El prototipo recoge los datos, permite visualizarlos,
@@ -12,8 +14,8 @@ previo o mostrando resultados parciales o preliminares. En la documentación del
 la arquitectura del sistemas, los módulos pendientes requeridos, la herramientas, técnicas y tecnología 
 a utilizar como trabajo futuro.
 
-
-    General:
+    
+                                  Info General:
 
 Interfaz Gráfica (GUI): 
 La clase GUI define la interfaz de usuario utilizando la biblioteca Tkinter de Python. Tkinter es una biblioteca estándar que proporciona widgets y herramientas para crear interfaces gráficas de usuario en aplicaciones de escritorio.
