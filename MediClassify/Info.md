@@ -11,3 +11,18 @@ de interacción con el usuario. El prototipo recoge los datos, permite visualiza
 previo o mostrando resultados parciales o preliminares. En la documentación del proyecto si se muestra 
 la arquitectura del sistemas, los módulos pendientes requeridos, la herramientas, técnicas y tecnología 
 a utilizar como trabajo futuro.
+
+
+    General:
+
+Interfaz Gráfica (GUI): 
+La clase GUI define la interfaz de usuario utilizando la biblioteca Tkinter de Python. Tkinter es una biblioteca estándar que proporciona widgets y herramientas para crear interfaces gráficas de usuario en aplicaciones de escritorio.
+
+Canvas: 
+El lienzo (canvas) se utiliza para mostrar las imágenes. Se crea dentro de un marco (canvas_frame) para permitir su expansión y relleno según el tamaño de la ventana.
+
+Botones y Etiquetas: 
+Se utilizan botones y etiquetas para interactuar con el usuario y mostrar información relevante, como la selección de modelos, instrucciones, nombre de la imagen actual y diagnósticos.
+
+Procesamiento de Imágenes: 
+El método process_images utiliza un modelo pre-entrenado para realizar la clasificación de las imágenes cargadas en la interfaz. Muestra el diagnóstico resultante en la etiqueta diagnostico_label.
